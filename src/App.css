@@ -1,0 +1,71 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-image: url("./slike/pozadina.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav {
+  height: 80px;
+  display: flex;
+  background-color: antiquewhite;
+  padding-left: 250px;
+  box-shadow: 0px 3px 8px rgba(0,0,0,0.3);
+}
+.rrr{
+  width: 200px;
+  max-width: 200px;
+}
+.sadrzaj {
+  padding: 50px 250px;
+  display: flex;
+}
+.nnaziv {
+  padding-left: 250px;
+  padding-top: 60px;
+  font-style: italic;
+  
+}
+
+.izgled {
+  width: 600px;
+  height: 400px;
+  display: flex;
+  margin-right: 100px;
+
+}
+.slika1{
+   width: 600px;
+   height: 400px;
+}
+.pocetak {
+  margin-right: 20px;
+  font-weight: 600;
+}
+.kraj{
+  font-weight: 600;
+
+}
+.ravno{
+  display: flex;
+  justify-content: space-between;
+}
+.dugme {
+  padding:10px 20px;
+  font-size: 20px;
+  font-weight: 600;
+  border: 2px solid white;
+  transition: 0.3s;
+  background-color: gainsboro;
+}
+.dugme:hover{
+  background-color: transparent;
+  border-radius: 0px;
+  border: 4px solid white;
+  font-size: 22px;
+}
+.naslovv{
+  margin-left: 70px;
+  text-align: center;
+}
